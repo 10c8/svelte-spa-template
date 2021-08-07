@@ -8,6 +8,7 @@ export default {
     }
   },
   plugins: [
+    '@snowpack/plugin-webpack',
     '@snowpack/plugin-svelte',
     '@snowpack/plugin-sass',
     '@snowpack/plugin-postcss'
