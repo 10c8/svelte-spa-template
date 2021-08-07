@@ -1,6 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 /*
  * Fonts
@@ -13,3 +10,23 @@
 
 /* Dosis */
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap');
+
+/*
+ * Base
+ */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*
+ * Tailwind
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
