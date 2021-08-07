@@ -20,13 +20,6 @@ export default {
       'dest': '/index.html'
     }
   ],
-  optimize: {
-    bundle: true,
-    minify: true,
-    treeshake: true,
-    splitting: true,
-    target: 'es2020'
-  },
   packageOptions: {
     /* ... */
   },
